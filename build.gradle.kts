@@ -9,11 +9,14 @@ group = "me.stephan"
 version = "1.0-SNAPSHOT"
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
-    implementation("org.twostack:bitcoin4j:1.3.0")
+    implementation("org.twostack:bitcoin4j:1.4.0-SNAPSHOT")
+    implementation("com.github.kittinunf.fuel:fuel:2.3.1")
+    implementation("com.github.kittinunf.fuel:fuel-jackson:2.3.1")
     testImplementation(kotlin("test"))
 }
 

@@ -1,3 +1,3 @@
 
-rootProject.name = "BroadcastTx"
+rootProject.name = "DataTx"
 
